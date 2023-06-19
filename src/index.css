@@ -1,13 +1,103 @@
 body {
+background-color: #EEEEEE;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+display: flex;
+flex-direction: column;
+margin: 0;
+}
+.App{
+  height: 100vh;
+}
+p{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+.header{
+  height: 10%;
+  padding-left: 100px;
+}
+.main{
+
+  height: 70%;
+  display: flex;
+
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.alpaca{
+height: 100%;
+width: 50%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.buttons{
+  height: 100%;
+  width: 50%;
+}
+
+.footer{
+  padding-left: 100px;
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
+.title{
+  color: #00225A;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+.icon{
+  width: 40px;
+  height: 40px;
+}
+
+.button-footer{
+  width: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FEFCFE;
+  border: 0;
+  border-radius: 2px;
+  margin-right: 50px;
+}
+.button-footer:hover{
+  border: 1px solid #23509C;
+  border-radius: 2px;
+  background-color:#dbdbdb ;
+}
+
+
+.img-container{
+  width: 400px;
+  height: 400px;
+}
+.img-background{
+  width: 400px;
+  height: 400px;
+}
+.btn-item-container{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 350px;
+  
+}
+.btn-item{
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #97b0d8;
+  flex:  0 0 auto;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #97b0d8;
+  cursor: pointer;
+}
+.btn-item:hover{
+  color: #23509C;
+  border: 1px solid #23509C;
 }
