@@ -26,7 +26,7 @@ p{
 .alpaca{
 height: 100%;
 width: 50%;
-
+position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -76,10 +76,7 @@ align-items: center;
   width: 400px;
   height: 400px;
 }
-.img-background{
-  width: 400px;
-  height: 400px;
-}
+
 .btn-item-container{
   list-style-type: none;
   display: flex;
@@ -100,4 +97,80 @@ align-items: center;
 .btn-item:hover{
   color: #23509C;
   border: 1px solid #23509C;
+}
+
+
+.selected-style{
+  background-color: #23509C;
+  color: white;
+}
+.selected-style:hover{
+  
+  color: white;
+}
+
+
+.btn-item-style{
+  padding: 10px 20px 10px 20px;
+  border: 1px solid #97b0d8;
+  flex:  0 0 auto;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #97b0d8;
+  cursor: pointer;
+}
+
+.img-background{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 0;
+}
+.alpaca-neck{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 1;
+}
+.alpaca-nose{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 1;
+}
+.alpaca-leg{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 1;
+}
+.alpaca-eyes{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 2;
+}
+.alpaca-ears{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 1;
+}
+.alpaca-accessories{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 2;
+}
+.alpaca-hair{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 1;
+}
+.alpaca-mouth{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: 2;
 }

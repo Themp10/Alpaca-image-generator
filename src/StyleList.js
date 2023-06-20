@@ -1,30 +1,26 @@
-import React,{useState,useEffect} from 'react'
- import {items} from './items'
-const StyleList = ({ style }) => {
-    const [selectedStyleList,SetSelectedStyleList]=useState([])
+import React, { useState, useEffect } from 'react';
+import { items } from './items';
 
-    useEffect(() => {
+const StyleList = ({ style,selectItem }) => {
+  const [selectedStyleList, setSelectedStyleList] = useState([]);
 
-    console.log(items[style])
-    if(items[style]==undefined){
-        SetSelectedStyleList(items[style])
+  useEffect(() => {
+    if (items[style] !== undefined) {
+      console.log(items[style])
+      setSelectedStyleList(items[style]);
     }
-            //
-     
-      });
+  }, [style]);
 
   return (
     <div>
-              <h2> STYLE </h2>
-              <ul className='btn-item-container'>
-                {selectedStyleList.map((itm)=>{
-                    return <li className='btn-item' key={itm}>{itm}</li>
-                })}
-              </ul>
+      <h2>STYLE</h2>
+      <ul className="btn-item-container">
+        {selectedStyleList.map((itm) => {
+          return <li className="btn-item-style" key={itm} onClick={selectItem}>{itm}</li>;
+        })}
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default StyleList
-
-
+export default StyleList;
