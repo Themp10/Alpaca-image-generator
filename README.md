@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+At DevProjects, we love alpacas! It's our mascot, and we'd love for you to have your own alpaca profile photo. With that said, this project is not just about alpacas. Allowing users to generate and download avatars are common in many interactive websites. In this project, you'll learn how to create an image generator website that allows users to generate, combine, and download images.
 
-## Available Scripts
+This project should take you approximately 8 hours to complete.
+Requirements
 
-In the project directory, you can run:
+    A website to let you customize your own alpaca profile picture (or desired image)
+    Customization panel
+    Randomize feature
+    Download generated image feature
 
-### `npm start`
+The following GIF shows one way to implement the UI. Feel free to interpret the requirements however you'd like!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Alpaca_demo_-_10.gif
+Suggested Implementation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Get your image assets ready. You could use the alpaca images we provided or use your own ones for your image generator.
+    Prepare your preferred front end stack. We recommend using tools like Create React App or Vue CLI if you want to have a quick setup.
+    Create an alpaca (image) preview UI
+    Add list of buttons for customizing your alpaca (image)
+    Add randomized alpaca feature
 
-### `npm test`
+References
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Make sure you get the layers of the body parts right. You don't want to end up having your alpaca's mouth being covered by its face! 😅
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
