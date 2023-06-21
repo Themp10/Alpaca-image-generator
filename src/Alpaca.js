@@ -1,5 +1,4 @@
 import React,{useState,useEffect, Fragment} from 'react'
-import bg from './alpaca/backgrounds/blue50.png';
 import './alpaca.css';
 
 const Alpaca = ({alpaca}) => {
